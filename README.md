@@ -1,2 +1,1 @@
-# index
-home
+# 静态页面 HeBen
