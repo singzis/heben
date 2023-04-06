@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import T from './components/t.vue'
+import Main from './components/main.vue'
+import Header from './components/header.vue'
 </script>
 
 <template>
-  <T />
+  <main class="relative text-zinc-950">
+    <Header />
+    <Main />
+  </main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
