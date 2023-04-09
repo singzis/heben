@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: ['./src/**/*.{vue,tsx}'],
   theme: {
     extend: {
-      rotate: {
-        '720': '720deg',
-      }
+      // rotate: {
+      //   '720': '720deg',
+      // }
     },
   },
   plugins: [],
