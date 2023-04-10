@@ -1,15 +1,22 @@
+@import './assets//fonts/font.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: Lora;
+  }
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #f2f0ed;
+  background-color: #171614;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,5 +41,76 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
 }
+
+#app {
+  height: 100%;
+}
+
+.sub_footer {
+  animation: bgColor 7s ease-in-out infinite;
+}
+
+@keyframes bgColor {
+  0% {
+    background-color: #f2f0ed;
+  }
+  25% {
+    background-color: #b7dae1;
+  }
+  50% {
+    background-color: #c9ebce;
+  }
+  75% {
+    background-color: #8162ff;
+  }
+  100% {
+    background-color: #f2f0ed;
+  }
+}
+
+.sub_footer__fill,
+.sub_footer__inner {
+  width: 100%;
+  height: 100%;
+  color: #171614;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.sub_footer__fill {
+  transform: translateX(-100%);
+}
+
+.sub_footer__inner {
+  transform: translateX(100%);
+}
+
+.sub_footer_hover:hover .sub_footer__fill,
+.sub_footer_hover:hover .sub_footer__inner {
+  transform: translateX(0);
+}
+
+.text_stroke {
+  -webkit-text-stroke: #171614 1px;
+}
+
+/* .main_title {
+  animation: fadeInUpBig 1s ease-in-out;
+}
+
+@keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+} */

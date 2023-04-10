@@ -3,10 +3,10 @@ import Menu from './menu.vue'
 </script>
 <template>
   <section
-    class="h-32 sticky top-0 flex items-center pl-16 pr-16"
+    class="h-32 top-0 flex items-center pl-16 pr-16"
   >
     <div class="basis-32">
-      <span>hezhiran</span>
+      <span>H</span>
     </div>
     <div class="grow text-center">
       <span>Directory</span>
