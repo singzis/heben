@@ -14,6 +14,6 @@ const routers = webRouter.webRouter
         </slot>
       </li>
     </ul>
-    <div class="pt-20 text-center text-white">京ICP备11018762号</div>
+    <div class="pt-20 text-center text-white">蜀ICP备2023008006号</div>
   </div>
 </template>
