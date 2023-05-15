@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 </script>
 <template>
-  <section class="h-32 top-0 flex items-center pl-16 pr-16">
+  <section class="h-32 top-0 flex items-center pl-12 pr-12">
     <div class="basis-32">
       <span>H</span>
     </div>
