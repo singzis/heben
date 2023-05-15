@@ -5,7 +5,7 @@ const routers = webRouter.webRouter
 
 <template>
   <div class="bg-black p-20">
-    <ul class="grid grid-cols-3 gap-12 mb-20">
+    <!-- <ul class="grid grid-cols-3 gap-12 mb-20">
       <li v-for="r in routers" :key="r.name" class="text-center">
         <slot :row="r">
           <a :href="r.path" class="text-3xl text-white hover:text-white">{{
@@ -13,7 +13,7 @@ const routers = webRouter.webRouter
           }}</a>
         </slot>
       </li>
-    </ul>
-    <div class="pt-20 text-center text-white">蜀ICP备2023008006号</div>
+    </ul> -->
+    <div class="text-center text-white">蜀ICP备2023008006号</div>
   </div>
 </template>
