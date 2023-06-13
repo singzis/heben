@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Benan from './beian.vue'
 import webRouter from '../assets/json/webRouter.json'
 const routers = webRouter.webRouter
 </script>
@@ -14,11 +15,6 @@ const routers = webRouter.webRouter
         </slot>
       </li>
     </ul> -->
-    <a
-      class="text-center text-white hover:text-white w-full"
-      href="https://beian.miit.gov.cn/"
-      target="_blank"
-      >蜀ICP备2023008006号</a
-    >
+    <Benan />
   </div>
 </template>
